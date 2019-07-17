@@ -7,10 +7,6 @@ if (earlyRegister) {
 }
 let runnerAge = 18;
 
-/*if(runnerAge>18 && earlyRegister) {
-  raceNumber += 1000;
-}*/
-
 if (runnerAge > 18 && earlyRegister) {
     console.log(`You will race at 9:30am and your racenumber is ${raceNumber}`);
 } else if (runnerAge > 18 && !earlyRegister) {
