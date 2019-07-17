@@ -1,15 +1,3 @@
-/*onst getSleepHours = day => {
-if(day === 'monday') {
-return 8;} else if(day === 'tuesday') {
-return 7;} else if(day === 'Wednesday') {
-return 6;} else if(day === 'thursday') {
-return 5;} else if(day === 'friday') {
-return 6;} else if(day === 'saturday') {
-return 8;} else if(day === 'sunday') {
-return 8;} 
-else {return ''}
-}*/
-
 const getSleepHours = day => {
     switch (day) {
         case 'monday':
@@ -37,14 +25,12 @@ const getSleepHours = day => {
             return 'Error!'
     }
 };
-//console.log(getSleepHours('tuesday'));
+
 const getActualSleepHours = () =>
     getSleepHours('monday') +
     getSleepHours('tuesday') +
     getSleepHours('wednesday') + getSleepHours('thursday') + getSleepHours('friday') + getSleepHours('saturday') + getSleepHours('sunday');
 
-//console.log (getSleepHours('friday'));
-//console.log (getActualSleepHours());
 
 const getIdealSleepHours = () => {
     let idealHours = 7;
