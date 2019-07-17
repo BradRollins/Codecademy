@@ -1,5 +1,5 @@
 let raceNumber = Math.floor(Math.random() * 1000);
-let earlyRegister = '25';
+let earlyRegister = true;
 if (earlyRegister) {
     console.log('Registered early.');
 } else {
